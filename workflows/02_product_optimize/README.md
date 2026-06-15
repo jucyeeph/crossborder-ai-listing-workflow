@@ -21,6 +21,24 @@
 
 ## 交互式确认流程（必须按顺序执行）
 
+### Step 0：产品系列档案（Product Brief）总结与确认
+
+系统根据产品原始数据自动提取以下信息，用户逐项确认或补充：
+
+| 字段 | AI 自动推断来源 | 用户操作 |
+|---|---|---|
+| 系列名称 (Series Name) | 从标题关键词提取 | 确认或修改 |
+| 产品类型 (Product Type) | 从标题分类判断 | 确认或修改 |
+| 核心卖点 (Selling Points) | 从 selling_points 或描述提取 | 确认/删除/追加 |
+| 套装/包装选项 (Package Options) | 根据 SKU 数量推断 | 确认/追加 |
+| 特殊说明 (Special Notes) | 无，用户自行输入 | 可选填写 |
+
+**档案复用机制**：同系列产品（如 Wave Bottle Star Touch 系列的不同单品）可复用已有档案，无需重复确认。
+
+**输出文件**：`product_brief.json`（保存在对应产品的 outputs 目录中）
+
+---
+
 ### Step 1：标题生成与确认
 
 系统根据产品原始信息生成英文标题，规则如下：
@@ -101,5 +119,7 @@ parentSKU：[产品代码] 推荐_____
 | 文件 | 用途 |
 |---|---|
 | `configs/product_description_template.md` | 产品描述前缀/后缀模板（可随时修改） |
+| `configs/product_brief_template.md` | 产品系列档案模板（参考格式） |
 | `configs/interactive_rules_spec.md` | 完整交互规则规范文档 |
 | `configs/pricing_config.example.json` | 定价参数参考（汇率、佣金等） |
+| `outputs/<product_code>/product_brief.json` | 具体产品的系列档案（交互确认后自动生成） |
