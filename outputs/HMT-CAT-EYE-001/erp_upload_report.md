@@ -1,6 +1,6 @@
 # ERP 上传报告
 
-**生成时间**: 2026-06-15 06:02:07
+**生成时间**: 2026-06-15 13:40:39
 **产品名称**: Cat Eye Gel Nail Polish Set 15ml Professional UV LED Soak Off Long Lasting Nail Art Color Gel for Nail Salon Home Use
 **Parent SKU**: HMT-CAT-EYE-001
 **SKU 总数**: 4

@@ -9,7 +9,7 @@ Category_ID:
   target_column: 分类ID*
   source: product.optimized.category_id
   required: true
-  default: 100350
+  default: 102029  # 默认使用 Beauty > Hand, Foot & Nail Care > Nail Care > Nail Polish
 
 Product_Name:
   target_column: 产品名称*

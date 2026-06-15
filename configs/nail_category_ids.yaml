@@ -1,0 +1,75 @@
+# 美甲产品 Shopee PH 分类ID 速查表
+# 来源: Beauty > Hand, Foot & Nail Care > Nail Care
+# 数据采集时间: 2026-06-15
+# 使用方法: 在 product.optimized.json 的 category_id 字段填入对应ID
+
+nail_care:
+  base_top_coat:
+    id: "101615"
+    path: "Beauty > Hand, Foot & Nail Care > Nail Care > Base & Top Coat"
+    use_for:
+      - 底胶
+      - 封层胶
+      - Top Coat
+      - Base Coat
+
+  nail_polish:
+    id: "102029"
+    path: "Beauty > Hand, Foot & Nail Care > Nail Care > Nail Polish"
+    use_for:
+      - 甲油胶
+      - 猫眼胶
+      - 功能胶
+      - 美甲胶
+      - Gel Nail Polish
+      - Cat Eye Gel
+      - UV Gel
+
+  nail_polish_remover:
+    id: "102030"
+    path: "Beauty > Hand, Foot & Nail Care > Nail Care > Nail Polish Remover"
+    use_for:
+      - 卸甲液
+      - 洗甲水
+      - Nail Remover
+
+  nail_treatment:
+    id: "102031"
+    path: "Beauty > Hand, Foot & Nail Care > Nail Care > Nail Treatment"
+    use_for:
+      - 护甲油
+      - 修复胶
+      - Nail Treatment
+
+  artificial_nail:
+    id: "102032"
+    path: "Beauty > Hand, Foot & Nail Care > Nail Care > Artificial Nail"
+    use_for:
+      - 假指甲
+      - 甲片
+      - Press-on Nails
+
+  nail_art_sticker:
+    id: "102033"
+    path: "Beauty > Hand, Foot & Nail Care > Nail Care > Nail Art & Sticker"
+    use_for:
+      - 美甲贴纸
+      - 美甲饰品
+      - Nail Sticker
+      - Nail Decal
+
+  manicure_tools:
+    id: "102034"
+    path: "Beauty > Hand, Foot & Nail Care > Nail Care > Manicure Tools & Devices"
+    use_for:
+      - 美甲工具
+      - 美甲灯
+      - 打磨机
+      - 磁铁
+      - Nail Lamp
+      - Nail Drill
+      - Manicure Tool
+      - Cat Eye Magnet
+
+# 默认分类（通用美甲胶类产品）
+default_nail_category_id: "102029"
