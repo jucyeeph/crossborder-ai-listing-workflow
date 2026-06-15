@@ -1,0 +1,7 @@
+# 忽略实际产品输出目录，保留示例验证结果
+# 如需提交验证结果，请手动 git add -f
+*
+!.gitignore
+!.gitkeep
+!HMT-CAT-EYE-001/
+!HMT-CAT-EYE-001/**

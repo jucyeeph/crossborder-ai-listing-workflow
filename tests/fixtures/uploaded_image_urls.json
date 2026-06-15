@@ -1,0 +1,17 @@
+{
+  "main": [
+    "https://cdn.example.com/products/shopee-ph/2026-06-15/HMT-CAT-EYE-001/main_01.jpg"
+  ],
+  "detail": [
+    "https://cdn.example.com/products/shopee-ph/2026-06-15/HMT-CAT-EYE-001/detail_01.jpg",
+    "https://cdn.example.com/products/shopee-ph/2026-06-15/HMT-CAT-EYE-001/detail_02.jpg",
+    "https://cdn.example.com/products/shopee-ph/2026-06-15/HMT-CAT-EYE-001/detail_03.jpg",
+    "https://cdn.example.com/products/shopee-ph/2026-06-15/HMT-CAT-EYE-001/detail_04.jpg"
+  ],
+  "skus": {
+    "HMT-CAT-EYE-001-01": "https://cdn.example.com/products/shopee-ph/2026-06-15/HMT-CAT-EYE-001/sku_rose_gold.jpg",
+    "HMT-CAT-EYE-001-02": "https://cdn.example.com/products/shopee-ph/2026-06-15/HMT-CAT-EYE-001/sku_midnight_blue.jpg",
+    "HMT-CAT-EYE-001-03": "https://cdn.example.com/products/shopee-ph/2026-06-15/HMT-CAT-EYE-001/sku_forest_green.jpg",
+    "HMT-CAT-EYE-001-04": "https://cdn.example.com/products/shopee-ph/2026-06-15/HMT-CAT-EYE-001/sku_purple_haze.jpg"
+  }
+}

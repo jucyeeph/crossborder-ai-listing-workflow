@@ -1,0 +1,48 @@
+{
+  "skus": [
+    {
+      "sku": "HMT-CAT-EYE-001-01",
+      "rmb_cost": 5.5,
+      "estimated_php_cost": 45.1,
+      "suggested_original_price": 149,
+      "suggested_sale_price": 119,
+      "campaign_price": 109,
+      "estimated_net_receive": 76.3,
+      "estimated_margin": 26.2,
+      "margin_warning": false
+    },
+    {
+      "sku": "HMT-CAT-EYE-001-02",
+      "rmb_cost": 5.5,
+      "estimated_php_cost": 45.1,
+      "suggested_original_price": 149,
+      "suggested_sale_price": 119,
+      "campaign_price": 109,
+      "estimated_net_receive": 76.3,
+      "estimated_margin": 26.2,
+      "margin_warning": false
+    },
+    {
+      "sku": "HMT-CAT-EYE-001-03",
+      "rmb_cost": 5.5,
+      "estimated_php_cost": 45.1,
+      "suggested_original_price": 149,
+      "suggested_sale_price": 119,
+      "campaign_price": 109,
+      "estimated_net_receive": 76.3,
+      "estimated_margin": 26.2,
+      "margin_warning": false
+    },
+    {
+      "sku": "HMT-CAT-EYE-001-04",
+      "rmb_cost": 5.5,
+      "estimated_php_cost": 45.1,
+      "suggested_original_price": 149,
+      "suggested_sale_price": 119,
+      "campaign_price": 109,
+      "estimated_net_receive": 76.3,
+      "estimated_margin": 26.2,
+      "margin_warning": false
+    }
+  ]
+}

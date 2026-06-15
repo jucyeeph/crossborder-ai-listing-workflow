@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Optimized Product Schema",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "英文商品标题"
+    },
+    "parent_sku": {
+      "type": "string",
+      "description": "父SKU"
+    },
+    "category_id": {
+      "type": "string",
+      "description": "平台分类ID"
+    },
+    "description": {
+      "type": "string",
+      "description": "详细英文描述"
+    },
+    "selling_points": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "weight": {
+      "type": "number",
+      "description": "重量(g)"
+    },
+    "length": {
+      "type": "number"
+    },
+    "width": {
+      "type": "number"
+    },
+    "height": {
+      "type": "number"
+    },
+    "condition": {
+      "type": "number",
+      "description": "物品状况, 1为全新"
+    },
+    "skus": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sku_id": {
+            "type": "string"
+          },
+          "sku_name": {
+            "type": "string"
+          },
+          "variant_name_1": {
+            "type": "string"
+          },
+          "variant_value_1": {
+            "type": "string"
+          },
+          "variant_name_2": {
+            "type": "string"
+          },
+          "variant_value_2": {
+            "type": "string"
+          },
+          "stock": {
+            "type": "number"
+          }
+        },
+        "required": ["sku_id", "variant_name_1", "variant_value_1"]
+      }
+    }
+  },
+  "required": ["title", "description", "skus"]
+}

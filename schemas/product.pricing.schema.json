@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Product Pricing Schema",
+  "type": "object",
+  "properties": {
+    "skus": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sku": {
+            "type": "string"
+          },
+          "rmb_cost": {
+            "type": "number"
+          },
+          "estimated_php_cost": {
+            "type": "number"
+          },
+          "suggested_original_price": {
+            "type": "number"
+          },
+          "suggested_sale_price": {
+            "type": "number"
+          },
+          "campaign_price": {
+            "type": "number"
+          },
+          "estimated_net_receive": {
+            "type": "number"
+          },
+          "estimated_margin": {
+            "type": "number"
+          },
+          "margin_warning": {
+            "type": "boolean"
+          }
+        },
+        "required": ["sku", "suggested_sale_price"]
+      }
+    }
+  },
+  "required": ["skus"]
+}
