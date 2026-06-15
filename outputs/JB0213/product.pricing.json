@@ -1,0 +1,338 @@
+{
+  "rmb_cost": 5.2,
+  "rate_used": 9.48,
+  "rate_live": 8.98,
+  "rate_buffer": 0.5,
+  "discount_price": 129,
+  "original_price": 258,
+  "php_cost": 49.3,
+  "net_receive": 90.3,
+  "margin_per_unit": 36.0,
+  "margin_pct": 27.9,
+  "skus": [
+    {
+      "sku": "JB0213-Star touch 01",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 02",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 03",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 04",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 05",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 06",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 07",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 08",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 09",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 10",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 11",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 12",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 13",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 14",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 15",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 16",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 17",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 18",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 19",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 20",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 21",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 22",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 23",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 24",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 25",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 26",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 27",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 28",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 29",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 30",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 31",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 32",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 33",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 34",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 35",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    },
+    {
+      "sku": "JB0213-Star touch 36",
+      "price": 258,
+      "campaign_price": 129,
+      "stock": 999,
+      "suggested_sale_price": 258,
+      "estimated_margin": 36.0,
+      "margin_warning": false
+    }
+  ]
+}
