@@ -1,0 +1,24 @@
+product_title:
+  source: product.optimized.title
+  target_column: Product Name
+  required: true
+
+main_image:
+  source: uploaded_image_urls.main[0]
+  target_column: Main Image
+  required: true
+
+description:
+  source: product.optimized.description
+  target_column: Description
+  required: true
+
+sku_name:
+  source: product.optimized.skus[].sku_name
+  target_column: SKU Name
+  required: true
+
+sale_price:
+  source: product.pricing.skus[].suggested_sale_price
+  target_column: Price
+  required: true

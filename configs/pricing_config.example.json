@@ -1,0 +1,18 @@
+{
+  "currency": {
+    "rmb_to_php": 8.2
+  },
+  "platform": {
+    "net_receive_rate": 0.70,
+    "fixed_cost_php": 5
+  },
+  "pricing": {
+    "base_multiplier": 2.5,
+    "min_margin_php": 20,
+    "rounding_rule": "end_with_9"
+  },
+  "campaign": {
+    "discount_price_ratio": 0.85,
+    "bundle_price_ratio": 0.90
+  }
+}
