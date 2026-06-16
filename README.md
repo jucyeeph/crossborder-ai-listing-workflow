@@ -20,6 +20,67 @@
 ## 项目结构
 请参考 [PROJECT_GUIDE.md](PROJECT_GUIDE.md) 获取详细的架构设计、数据流设计及推荐的开发路线。
 
+## 当前项目状态
+
+当前项目已经跑通：
+
+- 结构化产品数据到定价结果；
+- 结构化产品数据到 BigSeller Excel；
+- ERP 上传报告生成。
+
+当前仍属于 prototype / MVP 阶段：
+
+- 1688 采集尚未通用化；
+- 图片修改和图床上传尚未接入；
+- 产品信息优化仍以交互式脚本为主；
+- Skill 化正在进行中。
+
+当前正式稳定能力：
+
+- `skills/pricing_skill`
+- `skills/bigseller_export_skill`
+- `scripts/calculate_pricing.py`
+- `scripts/generate_bigseller_excel.py`
+- `scripts/run_pipeline.py`
+
+暂不支持：
+
+- BigSeller 自动登录；
+- 自动发布；
+- 真实图床上传；
+- 全自动图片改图；
+- 无人值守完整上架。
+
+## 当前正式工作流
+
+稳定 MVP 数据流：
+
+```text
+product.optimized.json
+uploaded_image_urls.json
+  -> scripts/calculate_pricing.py
+  -> scripts/generate_bigseller_excel.py
+  -> bigseller_product_upload.xlsx
+  -> erp_upload_report.md
+```
+
+一键运行：
+
+```bash
+python scripts/run_pipeline.py \
+  --product-dir outputs/<product_code> \
+  --template templates/bigseller_template.xlsx \
+  --pricing-config configs/pricing_config.example.json
+```
+
+测试运行：
+
+```bash
+python tests/test_erp_mapping.py
+```
+
+测试会从 `tests/fixtures/` 读取样例 JSON，并在临时目录生成定价结果、Excel 和报告，不依赖已提交的 `outputs/` 业务结果。
+
 ## 第一阶段 MVP 目标
 - 品类：美甲单品
 - 平台：Shopee PH

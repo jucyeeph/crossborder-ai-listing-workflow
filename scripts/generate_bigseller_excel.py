@@ -24,6 +24,8 @@ from openpyxl.styles import Font, PatternFill, Alignment
 
 
 # BigSeller 模板列顺序（与模板完全一致）
+# TODO: 这里仍是技术债。后续应读取 configs/bigseller_mapping.example.yaml，
+# 让 target_column/source/required/default 由 YAML 控制，而不是写死在 Python 中。
 COLUMNS = [
     "分类ID*",
     "产品名称*",

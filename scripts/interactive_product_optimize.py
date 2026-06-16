@@ -5,6 +5,9 @@ interactive_product_optimize.py
 根据 product.raw.json 或现有 product.optimized.json，
 通过交互式确认流程生成符合品牌规范的 product.optimized.json 和 product.pricing.json。
 
+注意：本脚本中的定价步骤仅作为人工交互辅助。
+正式 pricing source of truth = scripts/calculate_pricing.py。
+
 处理顺序：
   Step 0: 产品系列档案（Product Brief）总结与确认
           AI 自动提取系列名称、产品类型、核心卖点，用户确认或补充

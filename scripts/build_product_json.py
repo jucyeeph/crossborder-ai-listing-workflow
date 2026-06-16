@@ -1,6 +1,11 @@
 """
 build_product_json.py
 ---------------------
+PROTOTYPE ONLY / SAMPLE ONLY
+
+此脚本仅用于一次性样例数据构建，不属于正式工作流。
+正式流程不得依赖本脚本中的硬编码路径。
+
 从1688页面markdown和HTML中提取完整产品数据，
 构建 product.optimized.json 和 uploaded_image_urls.json。
 """
