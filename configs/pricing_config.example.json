@@ -1,6 +1,9 @@
 {
   "currency": {
-    "rmb_to_php": 8.2
+    "rmb_to_php": 8.9,
+    "_rmb_to_php_note": "默认回退汇率，仅在实时汇率获取失败时使用。实际汇率由脚本自动获取。",
+    "rate_buffer": 0.5,
+    "_rate_buffer_note": "实时汇率加上此浮动缓冲后，向上凑整到 0.5 的倍数。例如：实时 8.93 + 0.5 = 9.43 → 凑整 → 9.5"
   },
   "platform": {
     "net_receive_rate": 0.70,
@@ -8,6 +11,7 @@
   },
   "pricing": {
     "base_multiplier": 2.5,
+    "_pricing_formula_note": "折扣价 = 采购价(RMB) × 汇率 × base_multiplier，凑整到9；价格* = 折扣价 × 2，凑整到9",
     "min_margin_php": 20,
     "rounding_rule": "end_with_9"
   },

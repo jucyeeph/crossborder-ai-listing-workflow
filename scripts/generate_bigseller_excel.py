@@ -133,8 +133,10 @@ def build_rows(optimized: dict, images: dict, pricing: dict) -> tuple[list[dict]
         row["变种选项2"] = sku.get("variant_value_2", "")
         row["SKU"] = sku_id
         row["库存*"] = sku.get("stock", 100)
-        row["价格*"] = p.get("suggested_sale_price", "")
-        row["促销价"] = p.get("campaign_price", "")
+        # 价格* = 划线原价（sale_price = discount_price × 2）
+        # 促销价 = 折扣活动价（discount_price）
+        row["价格*"] = p.get("sale_price") or p.get("suggested_original_price", "")
+        row["促销价"] = p.get("discount_price") or p.get("campaign_price", "")
         row["变种图"] = get_safe(images, "skus", sku_id, default="")
 
         validate_required(row, sku_id, warnings)
