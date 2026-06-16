@@ -62,14 +62,58 @@ nail_care:
     id: "102034"
     path: "Beauty > Hand, Foot & Nail Care > Nail Care > Manicure Tools & Devices"
     use_for:
+      # 中文关键词
       - 美甲工具
       - 美甲灯
       - 打磨机
       - 磁铁
+      - 磁铁棒
+      - 双头磁铁
+      - 吸玻璃珠磁铁
+      - 猫眼磁铁
+      - 磁铁工具
+      - 指甲修剪工具
+      - 美甲套装工具
+      - 指甲锉
+      - 推皮棒
+      - 甲油胶工具
+      # 英文关键词
       - Nail Lamp
+      - UV Lamp
+      - LED Lamp
       - Nail Drill
+      - Nail Buffer
+      - Nail File
+      - Cuticle Tool
+      - Cuticle Pusher
       - Manicure Tool
+      - Manicure Set
       - Cat Eye Magnet
+      - Magnet Wand
+      - Magnet Stick
+      - Dual Head Magnet
+      - Ball Tip Magnet
+      - Ball Magnet
+      - Glass Bead Magnet
+      - Magnetic Wand
+      - Nail Magnet
+      - Magnet Tool
+
+# -------------------------------------------------------
+# 分类识别规则（AI 自动分类时必须遵守）
+# -------------------------------------------------------
+# 规则 1：优先匹配 use_for 列表中的关键词，匹配即使用对应 ID
+# 规则 2：工具/设备类产品（如磁铁棒、灯、打磨机）必须归入 manicure_tools (102034)
+#         即使产品名称中含有"猫眼"等胶类词汇，只要主体是工具，就用 102034
+# 规则 3：胶类产品（甲油胶、猫眼胶、底胶等液体/膏体）归入 nail_polish (102029)
+# 规则 4：无法匹配时使用 default_nail_category_id
+# 规则 5：判断依据优先级：1688原始分类 > 产品名称关键词 > 产品描述关键词
+# -------------------------------------------------------
+# 判断示例：
+#   "双头圆球磁铁棒" → 工具 → manicure_tools → 102034 ✅
+#   "猫眼胶 #36"     → 胶类 → nail_polish    → 102029 ✅
+#   "底胶"           → 胶类 → base_top_coat  → 101615 ✅
+# -------------------------------------------------------
 
 # 默认分类（通用美甲胶类产品）
 default_nail_category_id: "102029"
